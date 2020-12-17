@@ -1,0 +1,194 @@
+/*.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 25px 0px 25px 0px;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.footer {
+  background-color: #d1c4e9;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+.leader {
+  padding: 10px 0px 10px 0px;
+}
+
+body {
+  padding: 10px 0px 0px 0px;
+  z-index: 0;
+}
+
+.navbar-dark {
+  background-color: #512da8;
+}*/
+
+.header-logo-1 {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 50px;
+  background: url(../img/desktop/Group\ 2353.svg) no-repeat;
+  background-size: 100px 50px;
+}
+
+.header-background-1 {
+  background-color: #fffc00;
+}
+
+.header-style-1 {
+  text-transform: uppercase;
+  font: var(--unnamed-font-style-normal) normal 800 28px/50px
+    var(--unnamed-font-family-muli);
+  color: #0157ba;
+  font-weight: bold;
+  font-size: small;
+}
+
+.wrapper-1 {
+  position: relative;
+  text-align: left;
+  color: white;
+  align-items: center;
+}
+
+.wrapper-2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    18px/10px var(--unnamed-font-family-muli);
+  font-size: small;
+}
+
+.header-logo-2 {
+  padding-top: 7.5px;
+  width: 40%;
+}
+
+.header-style-2 {
+  position: absolute;
+  text-transform: uppercase;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    18px/10px var(--unnamed-font-family-muli);
+  font-size: 1.5vh;
+  font-weight: 500;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -60%);
+}
+
+.header-style-3 {
+  position: absolute;
+  text-transform: uppercase;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    18px/10px var(--unnamed-font-family-muli);
+  font-size: 1.5vh;
+  font-weight: 500;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background-header-image {
+  background: url(../img/desktop/Hero\ Andres\ +\ Thumb.svg) no-repeat;
+  min-height: 60vh;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.text-1 {
+  color: white;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.text-2 {
+  color: #fffc00;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.text-3 {
+  color: white;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.text-4 {
+  color: #fffc00;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8vh;
+}
+
+.card {
+  border: none;
+}
+
+.card-group {
+  margin-top: 10vh;
+}
+
+.card-img-top {
+  width: 30%;
+  height: 30%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+  background-color: #eaf7ff;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+  background: #eaf7ff 0% 0% no-repeat padding-box;
+}
+
+.img-resize {
+  width: 50%;
+  height: 85%;
+}
+
+.text-caption {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 40px;
+  color: white;
+}
+
+.footer-bottom-text {
+  padding-top: 2vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.highlight-footer-text {
+  color: #0084ff;
+}
