@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
@@ -27,73 +27,64 @@
   </head>
 
   <body>
-
+    <nav class="navbar justify-content-center">
+      <div class="col-auto col-sm-7">
+        <a class="navbar-brand" href="#"><img class="lozad" data-src="./img/desktop/Group 2353.svg" width="90vh"></a> <!-- fallback image in CSS -->
+      </div> 
+    </nav>
+    <p id="demo"></p>
     <header>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-              <a class="header-logo-1">
-                LOGOGOESHERE <!-- fallback image in CSS -->
-              </a>
-            </div>       
-        </div>
-        <div class="row align-items-center header-background-1">
-          <div class="col-6 d-flex justify-content-end">
-            <div class="header-style-1">I love this planet!</div>
-          </div>
-          <div class="col-6 header-image">
-            <div class="wrapper-1">
-              <img src="./img/desktop/CTA.svg" class="header-logo-2">
-              <div class="header-style-2">Click here!</div>
-            </div>
+        <div class="row header-background">
+          <div class="col-6 align-self-center header-text-style" style="padding:0px">I love this planet!</div>
+          <div class="col-6 align-self-center" style="padding:0px">
+            <img class="lozad" data-src="./img/desktop/CTA.png" width="180vh">
           </div>
         </div>
-        <div class="row align-items-center background-header-image">
-            <div class="col-6">           
-              <div class="row">
-                <div class="col-12 text-right text-1">That's not soon enough!</div>
-                <div class="col-12 text-right text-2">There's only one course of action</div>
-                <div class="col-12 text-right text-3">I don't know what you did, Fry, but once again, you screwed up!</div>
-                <div class="col-12 text-right text-4">But you may have to!</div>
-              </div>     
+        <div class="row p-2 justify-content-center background-header-image">
+            <div class="col-sm-12 col-md-4 align-self-center">           
+              <div class="text-center text-1">That's not soon enough!</div>
+              <div class="text-center text-2">There's only one </br> course of action</div>
+              <div class="text-center text-3">I don't know what you did, Fry, </br> but once again, you screwed up!</div>
+              <div class="text-center text-4">But you may have to!</div>    
             </div>
-            <div class="col-6">
-              <video width="320rem" height="180rem" controls>
-                <source src="movie.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-              </video>
+            <div class="col-sm-6 col-md-4 p-2 align-self-center">
+              <div class="embed-responsive embed-responsive-3by2">
+                <iframe class="embed-responsive-item lozad" data-src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+              </div>
             </div> 
-            <div class="col-12 d-flex justify-content-center">
-              <div class="wrapper-2">
-                <img src="./img/desktop/CTA.svg" class="header-logo-2">
-                <div class="header-style-3">Click here!</div>
+            <div class="col-12 p-2 d-flex justify-content-center">
+              <div>
+                <img class="lozad" data-src="./img/desktop/CTA.png" width="230vh">
               </div>
             </div> 
         </div>
       </div>
     </header>
-
-    <div class="card-group">
-      <div class="card text-center">
-        <img class="card-img-top center" src="./img/desktop/Group 1850.svg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Headline for icon number one</h5>
-          <p class="card-text">Text below icon one, text below icon one, text below</p>
-        </div>
-      </div>
-      <div class="card text-center">
-        <img class="card-img-top center" src="./img/desktop/Group 1851.svg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Headline for icon number two</h5>
-          <p class="card-text">Text below icon two, text below icon two</p>
-        </div>
-      </div>
-      <div class="card text-center">
-        <img class="card-img-top center" src="./img/desktop/Group 1855.svg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Headline for icon number three</h5>
-          <p class="card-text">Text below third icon, text below third icon</p>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="card-group">
+          <div class="card text-center right-outline">
+            <img class="card-img-top center lozad" data-src="./img/desktop/Group 1850.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Headline for icon </br>number one</h5>
+              <p class="card-text">Text below icon one, text </br>below icon one, text below</p>
+            </div>
+          </div>
+          <div class="card text-center right-outline">
+            <img class="card-img-top center lozad" data-src="./img/desktop/Group 1851.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Headline for icon </br>number two</h5>
+              <p class="card-text">Text below icon two, text </br>below icon two</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <img class="card-img-top center lozad" data-src="./img/desktop/Group 1855.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Headline for icon </br>number three</h5>
+              <p class="card-text">Text below third icon, text </br>below third icon</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -101,35 +92,37 @@
     <footer class="footer">
       <div class="container-fluid">
         
-        <div class="row">
-          <figure class="col-3 figure">
-            <img src="./img/desktop/Rounded Rectangle 663 copy.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            <div class="text-caption">Title1</div>
-          </figure>
+        <div id="footer-caption">
+          <div class="row justify-content-center">
+            <figure class="col-2 figure">
+              <img data-src="./img/desktop/Rounded Rectangle 663 copy.png" class="figure-img img-fluid rounded lozad" alt="A generic square placeholder image with rounded corners in a figure."/>
+              <div class="text-caption">Title1</div>
+            </figure>
 
-          <figure class="col-3 figure">
-            <img src="./img/desktop/Rounded Rectangle 663 copy-1.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            <div class="text-caption">Title2</div>
-          </figure>
+            <figure class="col-2 figure">
+              <img data-src="./img/desktop/Rounded Rectangle 663 copy-1.png" class="figure-img img-fluid rounded lozad" alt="A generic square placeholder image with rounded corners in a figure."/>
+              <div class="text-caption">Title2</div>
+            </figure>
 
-          <figure class="col-3 figure">
-            <img src="./img/desktop/Rounded Rectangle 663 copy-2.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            <div class="text-caption">Title3</div>
-          </figure>
+            <figure class="col-2 figure">
+              <img data-src="./img/desktop/Rounded Rectangle 663 copy-2.png" class="figure-img img-fluid rounded lozad" alt="A generic square placeholder image with rounded corners in a figure."/>
+              <div class="text-caption">Title3</div>
+            </figure>
 
-          <figure class="col-3 figure">
-            <img src="./img/desktop/Rounded Rectangle 663 copy-3.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            <div class="text-caption">Title4</div>
-          </figure>
+            <figure class="col-2 figure">
+              <img data-src="./img/desktop/Rounded Rectangle 663 copy-3.png" class="figure-img img-fluid rounded lozad" alt="A generic square placeholder image with rounded corners in a figure."/>
+              <div class="text-caption">Title4</div>
+            </figure>
+          </div>
         </div>
 
-        <div class="row">
-          <div class="col-12">
+        <div class="row justify-content-center">
+          <div class="col-6">
             <div class="footer-bottom-text">
-              This opera’s as lousy as it is brilliant! Your lyrics <span class="highlight-footer-text">lack subtlety</span>. You can’t just have your characters announce how they feel. That makes me feel angry! Hello, little man.
+              This opera’s as lousy as it is brilliant! Your lyrics <span class="highlight-footer-text">lack subtlety</span>. You can’t just have your characters announce how they feel. That makes me feel angry! </br>Hello, little man.
             </div>
           </div>
-        </div>        
+        </div>       
       </div>
     </footer>
 
@@ -137,5 +130,8 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lozad"></script>
+    <script src="lazyload.js"></script>
+    
   </body>
 </html>
